@@ -1,0 +1,61 @@
+@media screen and(max-width: 375px) {
+    body {
+        background: $linear-gradient-primary;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .leftSectionContainer {
+            height: 100%;
+            background-image: none;
+            > * {
+                margin-left: 0px;
+            }
+
+            .logo {
+                flex: 1;
+
+                .logoImage {
+                    transform: translate(10%, -50%) scale(0.8);
+                }
+            }
+            .mobileHeroImage {
+                flex: 3;
+                width: 100%;
+                height: auto;
+                background-image: url(images/hero-mobile.jpg);
+            }
+
+            .landingBody {
+                width: 100%;
+                flex: 6;
+                text-align: center;
+                padding: 0px 30px;
+                .landingHeader {
+                    span {
+                        font-size: 4.5rem;
+                    }
+                }
+                form {
+                    .emailInputField {
+                        width: 100%;
+                        height: 50px;
+                    }
+                    label {
+                        bottom: -65%;
+                    }
+                    .submitButton {
+                        width: 70px;
+                        height: 50px;
+                    }
+                }
+            }
+        }
+
+        .rightImageContainer {
+            display: none;
+        }
+    }
+}
