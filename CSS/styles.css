@@ -53,7 +53,7 @@ main {
   -ms-grid-row: 1;
   -ms-grid-row-span: 10;
   grid-row: 1/11;
-  background-image: url();
+  background-image: url(images/bg-pattern-desktop.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
