@@ -196,7 +196,7 @@ main {
   background-size: cover;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   body {
     background: -webkit-gradient(linear, left top, left bottom, from(white), to(#fff5f5));
     background: linear-gradient(to bottom, white 0%, #fff5f5 100%);
